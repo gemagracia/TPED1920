@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat', Helvetica, sans-serif;
+}
+h1,h2{
+    color:white;
+    font-family:'Oswald', Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+    padding:100px 0 0 100px;
+}
+p{
+    text-align:center;
+    padding-top:50px;
+}
+header{
+    background-color: burlywood;
+    height:300px;
+}
+#contenido{
+    background-color: cornflowerblue;
+    height:500px;
+    /*position de la caja padre */
+    /*position:relative*/
+}
+footer{
+    background-color:lightcoral;
+    height:200px;
+}
+#contenido .caja_fija1{
+    background-color: peru; 
+    width:100px;
+    height:100px;
+    /*modificamos la propiedad position del elemento*/
+    /* position:relative; */
+}
+
+#contenido .caja_fija2{
+    background-color:green;
+    width:100px;
+    height:100px;
+}
+
+#caja_loca{
+    background-color:red;
+    width:100px;
+    height:100px;
+    /*modificamos la propiedad position del elemento*/
+    /* position:relative; */
+}
+
+/**** ESPECIFICIDAD CSS ****/
+/***¿porqué no cambian a greenyellow las cajas anteriores
+si existe la cascada en CSS? es porque hemos utilizado 
+la especificidad CSS***/
+div{
+    background-color: greenyellow;
+}
