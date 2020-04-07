@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Posicionamiento FLOAT</title>
+</head>
+<body>
+    <div id="contenedor">
+        <header><h1>Página posicionada con FLOAT</h1></header>
+        <section id="contenido">
+            <img src="https://via.placeholder.com/300x450" alt="imagen de ejemplo">
+            <div id="texto">
+                <h2>Posicionamiento FLOAT</h2>
+                <p>El posicionamiento flotante es el más difícil de comprender pero al mismo tiempo es el más utilizado. La mayoría de estructuras de las páginas web complejas están diseñadas con el posicionamiento flotante</p>
+                <p>Cuando se posiciona una caja de forma flotante, la caja deja de pertenecer al flujo normal de la página, lo que significa que el resto de cajas ocupan el lugar dejado por la caja flotante.</p>
+                <p>Si se indica un valor <strong>left</strong>, la caja se desplaza hasta el punto más a la izquierda posible en esa misma línea<em>(si no existe sitio en esa línea, la caja baja una línea y se muestra lo más a la izquierda posible en esa nueva línea)</em>. El resto de elementos adyacentes se adaptan y fluyen alrededor de la caja flotante.</p>
+                <p>El valor <strong>right</strong> tiene un funcionamiento idéntico, salvo que en este caso, la caja se desplaza hacia la derecha. El valor <strong>none</strong> permite anular el posicionamiento flotante de forma que el elemento se muestre en su posición original.</p>
+                <p>La propiedad <strong>clear</strong> permite modificar el comportamiento por defecto del posicionamiento flotante para forzar a un elemento a mostrarse debajo de cualquier caja flotante. </p>
+            </div>
+        </section>
+        <section id="galeria">
+            <h2>Galería de IMÁGENES</h2>
+            <div class="imagen"><p>imagen1</p></div>
+            <div class="imagen"><p>imagen2</p></div>
+            <div class="imagen"><p>imagen3</p></div>
+            <div class="imagen"><p>imagen4</p></div>
+            <div class="imagen"><p>imagen5</p></div>
+            <div class="imagen"><p>imagen6</p></div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>
